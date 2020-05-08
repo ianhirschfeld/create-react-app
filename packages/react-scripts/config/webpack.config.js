@@ -499,6 +499,7 @@ module.exports = function(webpackEnv) {
                 modules: {
                   getLocalIdent: getCSSModuleLocalIdent,
                 },
+                localsConvention: 'dashesOnly',
               }),
             },
             // Opt-in support for SASS (using .scss or .sass extensions).
